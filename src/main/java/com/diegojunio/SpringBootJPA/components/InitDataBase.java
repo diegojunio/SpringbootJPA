@@ -5,9 +5,6 @@ import com.diegojunio.SpringBootJPA.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
-import org.springframework.web.bind.annotation.RestController;
-
-import java.util.List;
 
 @Component
 public class InitDataBase {
